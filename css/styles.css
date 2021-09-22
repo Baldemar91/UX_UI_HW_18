@@ -133,6 +133,22 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+/*iamge IDs*/
+#tastee{
+    width: 25%;
+}
+#DOL{
+    width: 80%;
+}
+#foodbank{
+    width: 80%;
+}
+
+#sideprojects{
+    width: 75%;
 }
 
 .yellow {
