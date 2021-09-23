@@ -42,6 +42,8 @@ a :hover {
     font-size: 14px;
 }
 
+
+
 /* hero space */
 
 .herospace {
@@ -87,6 +89,36 @@ a :hover {
     font-size: 20px;
 }
 
+@media screen and (max-width: 991px) {
+    .herospace  .name .ux{
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      width: 80%;
+     
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .herospace   .name .ux{
+      max-width: 470px;   
+      width: 70%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .herospace   .name .ux{
+      max-width: none;
+      width: 100%;
+    }
+  }
+  
+  
+
 /* Main */
 
 main {
@@ -125,7 +157,7 @@ main {
 .green {
     height: 492px;
     width: 900px;
-    background: #E9B945;
+    background: #7BAC7F;
     float: right;
     margin-right: 20px;
     margin-top: 2%;
@@ -135,10 +167,38 @@ main {
     justify-content: center;
     
 }
+@media screen and (max-width: 991px) {
+    .green {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: -300px;
+      text-align: center;
+      width: 80%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .green{
+      max-width: 470px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .green{
+      max-width: none;
+      width: 100%;
+    }
+  }
+
 
 /*iamge IDs*/
 #tastee{
     width: 25%;
+   
 }
 #DOL{
     width: 80%;
@@ -153,7 +213,7 @@ main {
 
 .yellow {
     float: right;
-    background-color: #7BAC7F;
+    background-color: #E9B945;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -171,6 +231,31 @@ main {
     width: 300px;
     z-index: 10;
 }
+@media screen and (max-width: 991px) {
+    .yellow  {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .yellow {
+      max-width: 300px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .yellow  {
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 h1 {
     text-align: center;
@@ -193,8 +278,13 @@ h2 {
     font-family: Helvetica, sans-serif;
     font-size: 15px;
     font-weight:400;
+    text-decoration: none;
    
 }
+
+
+
+
 
 .red {
     height: 492px;
@@ -208,6 +298,32 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 991px) {
+    .red {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .red {
+      max-width: 470px;
+     
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .red {
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 .blue {
      float: right;
@@ -230,6 +346,32 @@ h2 {
     z-index: 10;
    
 }
+@media screen and (max-width: 991px) {
+    .blue {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: -315px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .blue {
+      max-width: 300px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .blue {
+      max-width: none;
+      width: 100%;
+    }
+  }
+
 
 .yellow2 {
     height: 492px;
@@ -243,6 +385,32 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 991px) {
+    .yellow2 {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: -300px;
+      text-align: center;
+      width: 80%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .yellow2{
+      max-width: 470px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .yellow2{
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 .green2 {
     float: right;
@@ -264,6 +432,31 @@ h2 {
     width: 300px;
     z-index: 10;
 }
+@media screen and (max-width: 991px) {
+    .green2{
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .green2{
+      max-width: 470px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .green2 {
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 .blue2 {
     height: 492px;
@@ -277,6 +470,32 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 991px) {
+    .blue2{
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: auto;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .blue2{
+      max-width: 470px;
+     
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .blue2 {
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 .red2 {
     float: right;
@@ -298,6 +517,31 @@ h2 {
     width: 300px;
     z-index: 10;
 }
+@media screen and (max-width: 991px) {
+    .red2  {
+      grid-template-areas: "." "." "." ".";
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin-left: 15px;
+      margin-right: -315px;
+      text-align: center;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .red2  {
+      max-width: 300px;
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .red2  {
+      max-width: none;
+      width: 100%;
+    }
+  }
 
 /* footer */
 
