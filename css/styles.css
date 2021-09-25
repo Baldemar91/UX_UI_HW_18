@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     width: 100%;
     height: 100%;
@@ -18,7 +20,8 @@ body {
     background-color: #9bc7e9;
     display: flex;
     list-style-type: none;
-    padding-left: 70%;
+   justify-content:right;
+   margin-right: 50px;
     
 }
 

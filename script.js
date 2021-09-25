@@ -1,9 +1,9 @@
-
-$(document).ready(function() {
-    $(".workbutton").click(function() {
-        $("html, body").animate({
-            scrollTop: $(
-              'html, body').get(0).scrollHeight
-        }, 2000);
-    });
+$(".name").ready(function()
+  {
+  $("name").click(function(){
+    $("name").animate({height:"300px"},"slow");
+  });
+  $("name").click(function(){
+    $("name").animate({height:"100px"},"slow");
+  });
 });
