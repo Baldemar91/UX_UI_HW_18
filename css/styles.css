@@ -18,7 +18,7 @@ body {
     background-color: #9bc7e9;
     display: flex;
     list-style-type: none;
-    padding-left: 74%;
+    padding-left: 70%;
     
 }
 
@@ -67,7 +67,7 @@ a :hover {
     max-width: 100%;
     opacity: 1;
     overflow: hidden;
-    padding: 224px 200px;
+    padding: 224px 50px;
     position: static;
     text-align: center;
     transition: opacity 1500ms ease 0s;
@@ -89,33 +89,7 @@ a :hover {
     font-size: 20px;
 }
 
-@media screen and (max-width: 991px) {
-    .herospace  .name .ux{
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left;
-      width: 80%;
-     
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .herospace   .name .ux{
-      max-width: 470px;   
-      width: 70%;
-      
-    }
-  }
-  
-  @media screen and (max-width: 479px) {
-    .herospace   .name .ux{
-      max-width: none;
-      width: 100%;
-    }
-  }
+
   
   
 
@@ -433,7 +407,7 @@ h2 {
     z-index: 10;
 }
 @media screen and (max-width: 991px) {
-    .green2{
+    .green2 {
       grid-template-areas: "." "." "." ".";
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto;
@@ -445,8 +419,8 @@ h2 {
   }
   
   @media screen and (max-width: 767px) {
-    .green2{
-      max-width: 470px;
+    .green2 {
+      max-width: 300px;
       width: 80%;
     }
   }
