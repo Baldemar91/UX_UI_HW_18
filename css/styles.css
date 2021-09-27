@@ -21,7 +21,7 @@ body {
     display: flex;
     list-style-type: none;
    justify-content:right;
-   margin-right: 50px;
+   padding-right:50px;
     
 }
 
